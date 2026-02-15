@@ -1,87 +1,103 @@
-🚛 About This Project
-KTS Transport — Smart Fleet & Expense Management System is a desktop-based transport management application developed using Python and PyQt6, designed to simplify and digitalize daily operations of transport businesses.
-The system provides a centralized platform to manage vehicles, drivers, trips, expenses, and office operations with an easy-to-use graphical interface.
-This project was built to replace manual bookkeeping and spreadsheet-based tracking with a secure, structured, and automated management system, improving accuracy, efficiency, and reporting capabilities.
+# 🚛 KTS Transport — Smart Fleet & Expense Management System
 
-🎯 Purpose
-Transport companies often manage trips, vehicle maintenance, and financial records manually, which leads to:
-Data loss and calculation errors
-Difficulty tracking expenses and profits
-Poor visibility of vehicle and driver information
-Time-consuming reporting processes
+## 📌 About This Project
 
-This application solves these problems by providing a complete digital workflow for transport operations.
+**KTS Transport** is a desktop-based Transport Management System developed using **Python** and **PyQt6**.  
+The application helps transport businesses manage vehicles, drivers, trips, and expenses through a modern graphical interface.
 
-⚙️ Key Features
+This software replaces manual record keeping and spreadsheets with a structured digital system that improves accuracy, tracking, and reporting.
 
-🚚 Vehicle & Driver Management
-Store vehicle registration and compliance details
-Maintain driver profiles and contact information
-Track permits, insurance, tax, and fitness expiry dates
-Manage loan and vehicle financial details
+---
 
-🗺️ Trip Management
-Create and manage trip records
-Track routes, broker offices, and vehicle usage
-Calculate driver payments, expenses, and profit automatically
-Paid / Unpaid status tracking
-Date and vehicle-based filtering
+## 🎯 Purpose
 
-💰 Expense Management
-Vehicle maintenance expenses
-Tyre, tax, insurance, loan, and spare work tracking
-Office monthly expenses management
-Automatic total calculations
+Transport operations often face challenges such as:
 
-📊 Reporting & Export
-Generate PDF reports
-Export data to Excel
-Financial summaries and totals
-Filter reports by custom date ranges
+- Manual bookkeeping errors
+- Difficulty tracking vehicle expenses
+- Poor visibility of trip profits
+- Time-consuming report preparation
 
-🔐 Authentication & Security
-Secure login system
-Password hashing
-OTP-based password recovery
-SQLite database storage
+This project provides a **centralized solution** to manage all transport-related operations efficiently.
 
-🖥️ Modern Desktop UI
-Built with PyQt6
-Card-based dashboard navigation
-Responsive layouts
-Clean blue & white professional interface
+---
 
-🧱 Technology Stack
-Language: Python 3
-Framework: PyQt6
-Database: SQLite3
-Reporting: ReportLab (PDF), OpenPyXL / Pandas (Excel)
-Architecture: Modular desktop application
+## ⚙️ Features
 
-🗄️ Database Design
-The system uses a structured SQLite database to manage:
-Trips
-Vehicle expenses
-Office expenses
-Vehicle & driver details
-User authentication
-Automatic table creation ensures easy deployment without manual setup.
+### 🚚 Vehicle & Driver Management
+- Store vehicle registration details
+- Maintain driver information
+- Track insurance, permits, tax, and fitness expiry
+- Loan and financial tracking
 
-🚀 Benefits
-Reduces manual paperwork
-Improves financial tracking accuracy
-Centralizes all transport operations
-Faster report generation
-Easy to use for office staff
+### 🗺️ Trip Management
+- Create and manage trip records
+- Track routes and broker offices
+- Automatic profit & expense calculation
+- Paid / Unpaid trip status
+- Advanced filtering options
 
-📌 Future Improvements
-Cloud synchronization
-Multi-user access roles
-Mobile companion app
-Automated reminders for document expiry
+### 💰 Expense Management
+- Vehicle maintenance expenses
+- Tyre, tax, insurance, and spare work tracking
+- Monthly office expense management
+- Automatic total calculations
 
-Analytics dashboard
+### 📊 Reports & Export
+- Export reports to **PDF**
+- Export data to **Excel**
+- Financial summaries
+- Custom date filtering
 
-👨‍💻 Author
+### 🔐 Security
+- Login authentication system
+- Password hashing
+- OTP-based password reset
+- Secure SQLite database
 
-Developed as a real-world transport business management solution focusing on automation, usability, and reliability.
+### 🖥️ User Interface
+- Built with PyQt6
+- Modern dashboard layout
+- Easy navigation
+- Professional desktop design
+
+---
+
+## 🧱 Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| Python 3 | Core Programming |
+| PyQt6 | GUI Framework |
+| SQLite3 | Database |
+| ReportLab | PDF Reports |
+| OpenPyXL / Pandas | Excel Export |
+
+---
+
+## 🗄️ Database Modules
+
+- Trips Management
+- Vehicle Expenses
+- Office Expenses
+- Vehicle & Driver Details
+- User Authentication
+
+Database tables are automatically created during first run.
+
+---
+
+## 🚀 Installation
+
+```bash
+# Clone repository
+git clone https://github.com/your-username/kts-transport.git
+
+# Go into project folder
+cd kts-transport
+
+# Install dependencies
+pip install PyQt6 reportlab pandas openpyxl
+
+# Run application
+python homepage.py
